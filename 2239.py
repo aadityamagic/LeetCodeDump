@@ -37,6 +37,13 @@ Constraints:
 
 '''
 
+'''
+Runtime 112ms
+
+Beats 93.59%
+
+Complexity O(n)
+'''
 
 
 if __name__=='__main__':
