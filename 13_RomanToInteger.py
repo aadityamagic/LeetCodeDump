@@ -49,6 +49,12 @@ Constraints:
     It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 """
+"""
+Runtime
+53ms
+Beats21.74%
+complexity O(N)
+"""
 
 if __name__=="__main__":
     #hash map with all the different numbers
@@ -61,6 +67,7 @@ if __name__=="__main__":
             "D" : 500,
             "M" : 1000
         }
+        s="III"
 
         #
         ans = 0
